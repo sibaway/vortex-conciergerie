@@ -280,6 +280,14 @@ section {
     box-shadow var(--dur-med) var(--ease-standard);
 }
 
+@media (max-width: 959px) {
+  .site-header {
+    background: #faf9f6;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
 .site-header.is-scrolled {
   border-bottom-color: var(--color-line);
   box-shadow: 0 1px 0 rgba(23, 22, 19, 0.02);
