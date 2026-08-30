@@ -22,7 +22,7 @@
    -------------------------------------------------------------------------- */
 const VORTEX_CONFIG = {
   // ⚠️ NUMÉRO FICTIF — REMPLACER avant mise en ligne réelle.
-  whatsappNumber: "WHATSAPP_NUMBER_TO_REPLACE",
+  whatsappNumber: "+33756943999",
   defaultMessage:
     "Bonjour, je souhaiterais obtenir des informations concernant la gestion de mon logement.",
 };
