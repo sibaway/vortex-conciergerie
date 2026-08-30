@@ -44,13 +44,23 @@ function buildWhatsAppUrl() {
    -------------------------------------------------------------------------- */
 function applyWhatsAppLinks() {
   const url = buildWhatsAppUrl();
+
   document.querySelectorAll(".js-whatsapp-link").forEach((el) => {
     el.setAttribute("href", url);
     el.setAttribute("target", "_blank");
     el.setAttribute("rel", "noopener noreferrer");
+
+    el.addEventListener("click", () => {
+      if (typeof gtag === "function") {
+        gtag("event", "conversion", {
+          send_to: "AW-18418661905/NdJeCIaB1-ocEJH02c5E",
+          value: 1.0,
+          currency: "EUR"
+        });
+      }
+    });
   });
 }
-
 /* --------------------------------------------------------------------------
    3. HEADER — état au scroll + menu mobile
    -------------------------------------------------------------------------- */
