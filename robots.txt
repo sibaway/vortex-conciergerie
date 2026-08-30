@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vortex-conciergerie.fr/sitemap.xml
+Sitemap: https://sibaway.github.io/vortex-conciergerie/sitemap.xml
