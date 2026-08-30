@@ -406,7 +406,8 @@ section {
 .nav-mobile {
   position: fixed;
   inset: var(--header-h) 0 0 0;
-  background: var(--color-bg);
+  background-color: #faf9f6;
+  background-color: var(--color-bg, #faf9f6);
   z-index: 90;
   padding: var(--space-lg) var(--space-sm);
   display: flex;
